@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Definir color de fondo azul -->
+    <solid android:color="#2196F3"/> <!-- Puedes cambiar el color al que prefieras -->
+
+    <!-- Definir el radio de las esquinas -->
+    <corners android:radius="20dp"/> <!-- Ajusta el valor del radio según necesites -->
+
+</shape>
