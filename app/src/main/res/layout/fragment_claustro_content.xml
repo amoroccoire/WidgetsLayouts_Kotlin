@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClaustroContent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="399dp"
+            android:layout_height="304dp"
+            android:background="@drawable/background_info"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.037">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="131dp"
+                android:layout_height="134dp"
+                android:layout_gravity="center"
+                android:background="@drawable/circular_shape"
+                android:clipToOutline="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/claustroaqp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="265dp"
+                android:layout_height="293dp">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80dp"
+                    android:text="Es un conjunto arquitectónico de estilo barroco mestizo, construido en el siglo XVII por la orden de los jesuitas. Se encuentra junto a iglesia de la Compañía, en la Plaza de Armas de la ciudad. El claustro está compuesto por patios rodeados de galerías con arcos tallados en sillar, la piedra volcánica característica de la región. Los detalles escultóricos incluyen motivos religiosos, flora y fauna locales. Este espacio, que antiguamente albergaba a los sacerdotes jesuitas."
+                    android:textColor="#FDFCFC"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="22dp"
+                    android:layout_marginTop="31dp"
+                    android:text="Claustro de la compañia"
+                    android:textColor="#B89112"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
